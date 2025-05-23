@@ -1,0 +1,25 @@
+{
+    "name": "@types/libsodium-wrappers",
+    "version": "0.7.14",
+    "description": "TypeScript definitions for libsodium-wrappers",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/libsodium-wrappers",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Florian Imdahl",
+            "githubUsername": "ffflorian",
+            "url": "https://github.com/ffflorian"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/libsodium-wrappers"
+    },
+    "scripts": {},
+    "dependencies": {},
+    "typesPublisherContentHash": "b450dfef8f67fb3a5f4cafeef35a5d1bed107144d1f85b98109a463d13795e65",
+    "typeScriptVersion": "4.7"
+}

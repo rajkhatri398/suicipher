@@ -1,0 +1,60 @@
+{
+  "name": "sui-cipher-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@mysten/dapp-kit": "^0.11.0",
+    "@mysten/sui.js": "^0.54.1",
+    "@mysten/wallet-adapter-react": "^0.6.2",
+    "@mysten/wallet-adapter-react-ui": "^0.7.2",
+    "@mysten/wallet-adapter-sui-wallet": "^0.7.2",
+    "@mysten/wallet-adapter-wallet-standard": "^0.7.2",
+    "@mui/material": "^5.15.15",
+    "@mui/icons-material": "^5.15.15",
+    "libsodium-wrappers": "^0.7.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^5.3.3",
+    "web-vitals": "^3.5.0",
+    "@testing-library/react": "^14.2.1",
+    "@testing-library/jest-dom": "^6.1.6",
+    "@testing-library/user-event": "^14.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@types/libsodium-wrappers": "^0.7.14"
+  },
+  "resolutions": {
+    "@mui/icons-material": "5.15.15"
+  }
+}

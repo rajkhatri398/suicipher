@@ -1,0 +1,16 @@
+[package]
+name = "sui_cipher"
+version = "0.1.0"
+edition = "2024"
+published-at = "0x36ef13d982a8e53a08b782acedb6df469437de558ff9ed64cdc81eaf4750f43d"  # Replace with your actual published address
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/testnet" }
+# Add any additional dependencies here
+
+[addresses]
+sui_cipher = "0x0"  # Development address
+vault_module = "0x0"  # Module-specific address if needed
+
+[dev-addresses]
+# Test-specific addresses can go here
